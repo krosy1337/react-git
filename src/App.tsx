@@ -1,5 +1,6 @@
 import React from 'react'
 import {Box, Card, CssBaseline} from "@mui/material"
+import Top from "./components/Top"
 
 function App() {
     return (
@@ -9,6 +10,7 @@ function App() {
                 <Card sx={{padding: 10,}}>
                     Hello 123
                 </Card>
+                <Top />
             </Box>
         </>
     )
